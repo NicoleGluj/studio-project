@@ -1,8 +1,8 @@
 import { Layout } from "../components/Layout"
-import heroimage from "../assets/heroimage.jpg"
-import card1 from "../assets/card1.jpg"
-import card2 from "../assets/card2.jpg"
-import card3 from "../assets/card3.jpg"
+import heroimage from "../assets/heroimage.webp"
+import card1 from "../assets/card1.webp"
+import card2 from "../assets/card2.webp"
+import card3 from "../assets/card3.webp"
 
 export const Home = () => {
   return (
@@ -149,7 +149,7 @@ export const Home = () => {
           </div>
 
           <div className="flex h-full justify-between flex-col gap-10 lg:mr-30">
-            <div className="flex flex-col border-b border-[#535353]/70 shadow">
+            <div className="flex flex-col border-b border-[#535353]/70 ">
               <h3 className="text-lg lg:text-2xl 2xl:text-4xl font-bold mb-2 lg:mb-6 text-[#535353]">
                 Asesoramiento inicial
               </h3>
@@ -157,7 +157,7 @@ export const Home = () => {
                 Analizamos tus necesidades, tipo de actividad, presupuesto y proyeccion de crecimiento.
               </p>
             </div>
-            <div className="flex flex-col border-b border-[#535353]/70 shadow">
+            <div className="flex flex-col border-b border-[#535353]/70 ">
               <h3 className="text-lg lg:text-2xl 2xl:text-4xl font-bold mb-2 lg:mb-6 text-[#535353]">
                 Búsqueda y selección de propiedades
               </h3>
@@ -165,7 +165,7 @@ export const Home = () => {
                 Evaluamos opciones que se ajusten a tus requerimientos técnicos, comerciales y legales.
               </p>
             </div>
-            <div className="flex flex-col border-b border-[#535353]/70 shadow">
+            <div className="flex flex-col border-b border-[#535353]/70 ">
               <h3 className="text-lg lg:text-2xl 2xl:text-4xl font-bold mb-2 lg:mb-6 text-[#535353]">
                 Visita y evaluación
               </h3>
@@ -173,7 +173,7 @@ export const Home = () => {
                 Verificamos el estado legal y administrativo de la propiedad antes de avanzar.
               </p>
             </div>
-            <div className="flex flex-col border-b border-[#535353]/70 shadow">
+            <div className="flex flex-col border-b border-[#535353]/70 ">
               <h3 className="text-lg lg:text-2xl 2xl:text-4xl font-bold mb-2 lg:mb-6 text-[#535353]">
                 Cierre y acompañamiento
               </h3>
